@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border: 2px inset black;
+            border-collapse: collapse;
+        }
+        th{
+            border: 2px inset black;
+            background-color: rgb(117, 155, 67);
+        }
+        td{
+            border: 2px inset black;
+            background-color: rgb(192, 216, 161);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Países</th>
+            <th>Capitais</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Argentina</td>
+            <td>Buenos Aires</td>
+        </tr>
+        <tr>
+            <td>Brasil</td>
+            <td>Brasilia</td>
+        </tr>
+        <tr>
+            <td>Chile</td>
+            <td>Santiago</td>
+        </tr>
+        <tr>
+            <td>Colômbia</td>
+            <td>Bogotá</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td style="background-color: rgb(122, 150, 86); ;">Rodapé</td>
+            <td style="background-color: rgb(122, 150, 86); ;">da Tabela</td>
+        </tr>
+        </tfoot>
+        <caption>Legenda da Tabela</caption>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Produtos</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Produto</td>
+            <td>Preço</td>
+        </tr>
+        <tr>
+            <td>Maçã</td>
+            <td>7.34</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th colspan="2">Contatos</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Fulano de tal</td>
+            <td>Rua Central - Joinville</td>
+        </tr>
+        <tr>
+            <td>+55 47 98888-8888</td>
+        </tr>
+        <tr>
+            <td>fulanodetal@gmail.com</td>
+        </tr>
+
+    </table>
+</body>
+</html>
